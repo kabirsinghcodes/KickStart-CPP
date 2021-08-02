@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm64",
+            "compilerArgs": [],
+            "compilerPath": "C:\\MinGW\\bin"
+        }
+    ],
+    "version": 4
+}
