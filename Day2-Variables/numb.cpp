@@ -8,6 +8,6 @@ int main()
     cout << "Enter an integer: ";
     cin >> number;
 
-    cout << "You entered " << number;
+    cout << "The integers entered by the user : " << number;
     return 0;
 }
