@@ -3,9 +3,8 @@ using namespace std;
 int main()
 {
     int length, breadth;
-    cout << "Enter the length and breadth of the rectangle : " << endl;
+    cout << "Enter the length and breadth of the rectangle = ";
     cin >> length;
-    cout << endl;
     cin >> breadth;
     if (length == breadth)
     {
