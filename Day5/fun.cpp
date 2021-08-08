@@ -14,7 +14,7 @@ int main()
     }
     else
     {
-        cout << "heyyaaaa";
+        cout << "heyy";
     }
     return 0;
 }
