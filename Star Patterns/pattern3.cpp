@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
         }
         for (int j = 5; j >= i; j--)
         {
-            cout << "*";
+            cout << "$";
         }
         cout << "\n";
     }
