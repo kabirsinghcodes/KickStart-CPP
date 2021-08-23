@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-    int student[10];
-    student[0] = 25;
-    student[1] = 21;
-    student[2] = 22;
-    cout << student[0] << " " << student[1] << " " << student[2];
+    int student[10] = {21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
+
+    for (int i = 0; i <= 9; i++)
+    {
+        cout << student[i] << " ";
+    }
     return 0;
 }
