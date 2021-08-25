@@ -24,9 +24,17 @@ void selectionsort(int arr[], int n)
 
 int main()
 {
-    int input[5] = {33, 55, 22, 542, 2};
-    selectionsort(input, 5);
-    for (int i = 0; i < 5; i++)
+    int size;
+    cout << "Enter the size of your array : " << endl;
+    cin >> size;
+    int input[size];
+    cout << "Enter the elements of the array : " << endl;
+    for (int i = 0; i < size; i++)
+    {
+        cin >> input[i];
+    }
+    selectionsort(input, size);
+    for (int i = 0; i < size; i++)
     {
         cout << input[i] << " ";
     }
