@@ -3,7 +3,8 @@
 using namespace std;
 int main()
 {
-    string name = "Kabir";
-    cout << name.at(3) << endl;
+    string s1 = "abcdefg";
+    s1.erase(1, 1);
+    cout << s1 << endl;
     return 0;
 }
